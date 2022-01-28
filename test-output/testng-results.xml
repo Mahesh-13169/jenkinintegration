@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-28T11:04:21Z" name="Default suite" finished-at="2022-01-28T11:04:40Z" duration-ms="18755">
+    <groups>
+    </groups>
+    <test started-at="2022-01-28T11:04:21Z" name="Default test" finished-at="2022-01-28T11:04:40Z" duration-ms="18755">
+      <class name="jenkins.MyProject">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:19Z" name="openbrowser" finished-at="2022-01-28T16:34:21Z" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:21Z" name="openurl" finished-at="2022-01-28T16:34:25Z" duration-ms="4175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="windowmaximize()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:25Z" name="windowmaximize" finished-at="2022-01-28T16:34:27Z" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowmaximize -->
+        <test-method is-config="true" signature="deletecookies()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:27Z" name="deletecookies" finished-at="2022-01-28T16:34:27Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecookies -->
+        <test-method signature="logintest()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:27Z" name="logintest" finished-at="2022-01-28T16:34:32Z" duration-ms="4480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:32Z" name="screenshot" finished-at="2022-01-28T16:34:32Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="deletecookies()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:32Z" name="deletecookies" finished-at="2022-01-28T16:34:32Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecookies -->
+        <test-method signature="logouttest()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:32Z" name="logouttest" finished-at="2022-01-28T16:34:39Z" depends-on-methods="jenkins.MyProject.logintest" duration-ms="6355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:39Z" name="screenshot" finished-at="2022-01-28T16:34:39Z" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="deleteallcookies()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:39Z" name="deleteallcookies" finished-at="2022-01-28T16:34:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallcookies -->
+        <test-method is-config="true" signature="closedbconnection()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:39Z" name="closedbconnection" finished-at="2022-01-28T16:34:40Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbconnection -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:jenkins.MyProject@6caf0677]" started-at="2022-01-28T16:34:40Z" name="closebrowser" finished-at="2022-01-28T16:34:40Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- jenkins.MyProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
